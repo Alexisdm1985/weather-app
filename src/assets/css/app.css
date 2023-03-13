@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
