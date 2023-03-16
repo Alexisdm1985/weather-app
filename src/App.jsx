@@ -1,18 +1,12 @@
-import { useState } from 'react'
-import SearchWeather from './components/SearchWeather'
-import WeatherCard from './components/WeatherCard'
-import './assets/css/app.css';
+// import './assets/css/app.css';
+import WeatherPanel from './components/WeatherPanel';
 
 function App() {
 
+  
   return (
     <div className="App">
-      <section>
-        <SearchWeather/>
-      </section>
-      <main>
-        <WeatherCard/>
-      </main>
+      <WeatherPanel/>
     </div>
   )
 }
