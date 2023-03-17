@@ -18,7 +18,6 @@ const WeatherPanel = () => {
         weatherFetch(url)
             .then( (response) => {
                 setData(response)
-                console.log(response);
                 setIsLoading(false);
             });
     };
