@@ -26,7 +26,7 @@ const SearchWeather = ({handleFetch}) => {
                     onChange={(e) => setLocation(e.target.value)}
                     />
 
-                <button>Buscar</button>
+                <button className="btn">Buscar</button>
             </form>
         </>
     )
